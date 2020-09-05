@@ -150,7 +150,7 @@ class LoginPage extends StatelessWidget {
     return BlocBuilder<AuthBloc, AuthState>(
         builder: (BuildContext context, state) {
       // ignore: close_sinks
-      final authBloc = context.bloc<AuthBloc>();
+      // final authBloc = context.bloc<AuthBloc>();
       return Material(
         elevation: 5.0,
         borderRadius: BorderRadius.circular(30.0),
